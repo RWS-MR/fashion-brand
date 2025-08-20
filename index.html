@@ -1,14 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Northline Studio — New Drop Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northline Studio — minimal streetwear made in small batches. New drop live now.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Northline Studio home">Northline Studio</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        <ul id="primary-menu">
+          <li><a href="#drop">Drop</a></li>
+          <li><a href="#lookbook">Lookbook</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#join">Join</a></li>
+        </ul>
+      </nav>
+      <div class="header-ctas">
+        <a class="btn btn-outline" href="#drop">Shop Drop</a>
+        <a class="btn btn-black" href="#join">Join</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="New drop hero">
+    <div class="hero-bg" style="--bg:url('https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1800&auto=format&fit=crop')"></div>
+    <div class="container hero-inner">
+      <div class="marquee" aria-hidden="true">
+        <span>NEW DROP LIVE • LIMITED • HAND‑FINISHED •</span>
+        <span>NEW DROP LIVE • LIMITED • HAND‑FINISHED •</span>
+      </div>
+      <h1>Minimal streetwear. <span class="underline">Small batches.</span></h1>
+      <p class="sub">Cut & sew essentials for everyday. Designed in Michigan.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-black btn-lg" href="#drop">Shop the Drop</a>
+        <a class="btn btn-ghost btn-lg" href="#lookbook">View Lookbook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust / badges strip -->
+  <section class="badges">
+    <div class="container badges-row">
+      <span>USA‑Made</span>
+      <span>Ethically Sourced</span>
+      <span>Free Returns • 30 Days</span>
+      <span>Carbon‑Neutral Shipping</span>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- DROP grid -->
+    <section id="drop" class="drop">
+      <div class="container">
+        <div class="section-head">
+          <h2>New Drop</h2>
+          <a class="link" href="#join">Get early access →</a>
+        </div>
+        <div class="grid">
+          <!-- Product cards (demo) -->
+          <article class="card">
+            <a class="media" href="#" aria-label="Open product: Boxy Tee — Slate">
+              <img src="https://images.unsplash.com/photo-1520975693413-d2b2d8f0a19f?q=80&w=1200&auto=format&fit=crop" alt="Boxy Tee — Slate on model">
+            </a>
+            <div class="meta">
+              <h3>Boxy Tee — Slate</h3>
+              <span class="price">$36</span>
+            </div>
+            <button class="btn btn-black w-100">Add to Cart (demo)</button>
+          </article>
+
+          <article class="card">
+            <a class="media" href="#" aria-label="Open product: Cargo Trouser — Black">
+              <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1200&auto=format&fit=crop" alt="Cargo Trouser — Black flatlay">
+            </a>
+            <div class="meta">
+              <h3>Cargo Trouser — Black</h3>
+              <span class="price">$78</span>
+            </div>
+            <button class="btn btn-black w-100">Add to Cart (demo)</button>
+          </article>
+
+          <article class="card">
+            <a class="media" href="#" aria-label="Open product: Nylon Coach Jacket — Olive">
+              <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop" alt="Nylon Coach Jacket — Olive on hanger">
+            </a>
+            <div class="meta">
+              <h3>Coach Jacket — Olive</h3>
+              <span class="price">$92</span>
+            </div>
+            <button class="btn btn-black w-100">Add to Cart (demo)</button>
+          </article>
+
+          <article class="card">
+            <a class="media" href="#" aria-label="Open product: Wool Cap — Oat">
+              <img src="https://images.unsplash.com/photo-1520974079860-5168f32a7e6a?q=80&w=1200&auto=format&fit=crop" alt="Wool Cap — Oat on table">
+            </a>
+            <div class="meta">
+              <h3>Wool Cap — Oat</h3>
+              <span class="price">$28</span>
+            </div>
+            <button class="btn btn-black w-100">Add to Cart (demo)</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lookbook scroller -->
+    <section id="lookbook" class="lookbook">
+      <div class="container">
+        <div class="section-head">
+          <h2>Lookbook</h2>
+          <p class="muted">Season 04 • downtown, late light</p>
+        </div>
+      </div>
+      <div class="snap-row">
+        <figure class="shot">
+          <img src="https://images.unsplash.com/photo-1513366884929-f0b3bedfb653?q=80&w=1600&auto=format&fit=crop" alt="Model wearing slate tee walking across crosswalk">
+        </figure>
+        <figure class="shot">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600&auto=format&fit=crop" alt="Close up of jacket texture in low light">
+        </figure>
+        <figure class="shot">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1600&auto=format&fit=crop" alt="Street scene with model wearing cargos and cap">
+        </figure>
+        <figure class="shot">
+          <img src="https://images.unsplash.com/photo-1490481651871-9c87b5a4e9e7?q=80&w=1600&auto=format&fit=crop" alt="Back alley portrait with coach jacket">
+        </figure>
+      </div>
+    </section>
+
+    <!-- About / Ethos -->
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div>
+          <h2>Built to be worn, not worshipped.</h2>
+          <p>We design pieces that disappear into your day: great patterns, precise fits, durable fabrics. Small‑batch drops keep it tight and responsible.</p>
+          <ul class="ticks" role="list">
+            <li>Cut & sew partners audited yearly</li>
+            <li>Organic or recycled fabric where possible</li>
+            <li>Neutral shipping + plastic‑free packing</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="stat"><span>4</span> Seasons</div>
+          <div class="stat"><span>72%</span> Organic Inputs</div>
+          <div class="stat"><span>0</span> Fast‑Fashion</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- From IG (masonry-ish) -->
+    <section class="ig">
+      <div class="container">
+        <div class="section-head">
+          <h2>From the Feed</h2>
+          <p class="muted">@northline.studio</p>
+        </div>
+        <div class="masonry">
+          <img src="https://images.unsplash.com/photo-1520975657285-c7cfd21d6bb0?q=80&w=800&auto=format&fit=crop" alt="Studio flatlay of tees and cap">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=800&auto=format&fit=crop" alt="Detail of cargo pocket">
+          <img src="https://images.unsplash.com/photo-1490481651871-9c87b5a4e9e7?q=80&w=800&auto=format&fit=crop" alt="Model in alley with jacket">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=800&auto=format&fit=crop" alt="Street shot of outfit">
+          <img src="https://images.unsplash.com/photo-1520974079860-5168f32a7e6a?q=80&w=800&auto=format&fit=crop" alt="Cap on table closeup">
+          <img src="https://images.unsplash.com/photo-1513366884929-f0b3bedfb653?q=80&w=800&auto=format&fit=crop" alt="Walking shot crosswalk">
+        </div>
+      </div>
+    </section>
+
+    <!-- Join -->
+    <section id="join" class="join">
+      <div class="container join-grid">
+        <div>
+          <h2>Get the password to early access</h2>
+          <p class="muted">We send 1–2 emails per drop. No spam.</p>
+        </div>
+        <form name="join" method="POST" data-netlify="true" netlify-honeypot="trap" class="form">
+          <input type="hidden" name="form-name" value="join">
+          <p class="hidden"><label>Leave empty: <input name="trap"></label></p>
+          <div class="row">
+            <label class="sr" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@domain.com" required>
+            <button class="btn btn-black" type="submit">Join</button>
+          </div>
+          <p class="fine">By joining you agree to our demo terms.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Northline Studio</h4>
+        <p class="muted">Minimal streetwear in small batches.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@northline.demo</p>
+      </div>
+      <div>
+        <h4>HQ</h4>
+        <p>Rochester, Michigan</p>
+      </div>
+    </div>
+    <p class="legal">© <span id="year"></span> Northline Studio.</p>
+
+    <!-- Mobile sticky -->
+    <div class="mobile-stick">
+      <a href="#drop" class="btn btn-black">Shop Drop</a>
+      <a href="#join" class="btn btn-outline">Join</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- JSON‑LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Northline Studio",
+    "url":"https://example.com",
+    "brand":"Northline Studio",
+    "sameAs": []
+  }
+  </script>
+</body>
 </html>
