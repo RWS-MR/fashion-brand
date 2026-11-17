@@ -139,3 +139,6 @@ img{width:100%;height:100%;display:block;object-fit:cover}
   .quick-dialog[open]{display:block}.quick-image{height:290px;min-height:0}.quick-details{padding:28px 23px 35px}.quick-details h2{font-size:34px}.quick-details fieldset{margin:22px 0}.bag-dialog{width:100%;max-height:100dvh}.bag-top{padding:55px 20px 17px}.bag-items{padding:10px 20px}.bag-bottom{padding:21px 20px}.bag-row{grid-template-columns:75px 1fr auto;gap:9px}.bag-row img{width:75px;height:100px}.bag-row h3{font-size:14px}.bag-row strong{font-size:10px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Small footer disclosure, separate from the editorial and product presentation. */
+.site-footer .site-disclosure{border-top:1px solid #ffffff30;padding:15px 0 25px;font-size:10px;line-height:1.7;letter-spacing:.01em;color:#bcbcbc;max-width:900px}
